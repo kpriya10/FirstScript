@@ -14,7 +14,7 @@ User launch to the url
 
 Click Element on web page
     [Tags]  click element
-    Sleep  5s
+    Sleep  25s
     wait until page contains  Text Box
     Click element  //*[@id="item-0"]/span
     Sleep  5s
