@@ -17,7 +17,7 @@ Click Element on web page
     input text  //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input  world map images
     #Click Element  //*[@id="tsf"]/div[2]/div[1]/div[2]/button/div/span/svg
     Click Element  //*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]
-    Sleep  10s
+    Sleep  11s
     Close Browser
 
 *** Keywords ***
