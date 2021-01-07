@@ -12,12 +12,12 @@ User launch to the url
     Maximize Browser Window
 
 Click Element on web page
-    [Tags]  Enter World diagram in search bar
-    Sleep  10s
+    [Tags]  Enter World Map Image in search bar
+    Sleep  5s
     input text  //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input  world map images
     #Click Element  //*[@id="tsf"]/div[2]/div[1]/div[2]/button/div/span/svg
     Click Element  //*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]
-    Sleep  11s
+    Sleep  3s
     Close Browser
 
 *** Keywords ***
