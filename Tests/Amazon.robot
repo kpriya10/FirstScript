@@ -2,25 +2,23 @@
 Documentation  This is test documentation
 Library  SeleniumLibrary
 
-
-
 *** Variables ***
-
+${Browser}  chrome
 
 *** Test Cases ***
 User launch to the url
     [Tags]  Smoke
-    Open Browser  https://demoqa.com/elements  chrome
+    Open Browser  https://google.com  ${Browser}
+    Maximize Browser Window
 
 Click Element on web page
-    [Tags]  click element
-    Sleep  25s
-    wait until page contains  Text Box
-    Click element  //*[@id="item-0"]/span
-    Sleep  65s
+    [Tags]  Enter World Map Image in search bar
+    Sleep  5s
+    input text  //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input  world map images
+    #Click Element  //*[@id="tsf"]/div[2]/div[1]/div[2]/button/div/span/svg
+    Click Element  //*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]
+    Sleep  5s
     Close Browser
-
-
 
 *** Keywords ***
 
