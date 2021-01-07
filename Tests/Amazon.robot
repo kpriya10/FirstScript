@@ -17,7 +17,7 @@ Click Element on web page
     Sleep  5s
     wait until page contains  Text Box
     Click element  //*[@id="item-0"]/span
-    Sleep  5s
+    Sleep  15s
     Close Browser
 
 
