@@ -12,7 +12,7 @@ User launch to the url
     Maximize Browser Window
 
 Click Element on web page
-    [Tags]  Enter World Map Image in search bar
+    [Tags]  Enter World Map in search bar
     Sleep  10s
     input text  //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input  world map images
     #Click Element  //*[@id="tsf"]/div[2]/div[1]/div[2]/button/div/span/svg
