@@ -14,7 +14,7 @@ User launch to the url
 Click Element on web page
     [Tags]  Enter World Map Image in search bar
     Sleep  5s
-    input text  //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input  world map images
+    input text  //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input  The world map image
     #Click Element  //*[@id="tsf"]/div[2]/div[1]/div[2]/button/div/span/svg
     Click Element  //*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]
     Sleep  3s
